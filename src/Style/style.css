@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+html{
+    background-color: white;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: brown;
+    text-align: center;
+    font-weight: 100;
+    font-size: 3rem;
+    font-family: 'Freckle Face', cursive;
+    margin: 0;
+}
+h2{
+    color: black;
+    text-align: center;
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Freckle Face', cursive;
+}
+.main-container{
+    width: 100%;
+    height: 88vh;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.dislike-container{
+    width: 25%;
+    height: 100%;
+    max-height: inherit;
+    font-size: 100px;
+    float: left;
+    box-sizing: border-box;
+}
+.dislike-box-container{
+    width: 94%;
+    margin:10px;
+    height: 8vh;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+    align-items: center;
+    background-color: azure;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.dislike-box-container img{
+    width: 15%;
+    border-radius: 50%;
+    position: relative;
+    margin: 5px;
+    padding:0;
+    box-sizing: border-box;
+}
+.dislike-box-container h5{
+    display: inline;
+    position: relative;
+    right:120px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 0;
+}
+.options-container{
+    width: 50%;
+    height: 100%;
+    font-size: 100px;
+    float: left;
+    box-sizing: border-box;
+    max-height: inherit;
+  overflow-y: scroll;
+}
+.options-container::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+  }
+  
+  .options-container::-webkit-scrollbar-track {
+    background: azure;        /* color of the tracking area */
+  }
+  
+  .options-container::-webkit-scrollbar-thumb {
+    background-color: brown;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid azure;  /* creates padding around scroll thumb */
+  }
+.option-box-container{
+    float: right;
+    width: 94%;
+    margin:10px;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: azure;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.dislike-button{
+    background-color:#ff3232;
+	border-radius:28px;
+	border:1px solid #ff3232;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:14px;
+	padding:16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.like-button{
+    background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:14px;
+	padding:16px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.info-div{
+    max-height: inherit;
+
+}
+.info-div img{
+    width: 80%;
+    height: 250px;
+    display: block;
+    margin-top:10px ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;  
+}
+.info-div h6{
+    color: black;
+    text-align: center;
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 0;
+}
+.info-div p{
+    color: black;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.like-container{
+    width: 25%;
+    height: 100%;
+    font-size: 100px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.like-box-container{
+    width: 94%;
+    margin:10px;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: azure;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.like-box-container img{
+    width: 15%;
+    border-radius: 50%;
+    position: relative;
+    margin: 5px;
+    padding:0;
+    box-sizing: border-box;
+}
+.like-box-container h5{
+    display: inline;
+    position: relative;
+    right:120px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 0;
+}
